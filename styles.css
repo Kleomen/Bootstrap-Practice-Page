@@ -1,0 +1,88 @@
+.bg-purple-gradient {
+    background: linear-gradient(135deg, #20003b, #4b0082);
+}
+  
+  .btn-purple {
+    background-color: #8a2be2;
+    border: none;
+  }
+    
+  .fs-responsive {
+    font-size: clamp(0.8rem, 2vw, 1rem);
+  }
+  .fs-responsive-p {
+    font-size: clamp(0.4rem, 1.8vw, 2rem);
+  }
+
+  .fs-responsive-heading {
+    font-size: clamp(1rem, 5vw, 20rem);
+  }
+    
+  .fs-responsive-ofspace {      
+    color: white;
+    font-size: 20vw;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+  }
+    
+  .fs-responsive-name {
+    font-size: clamp(0.5rem, 2vw, 10rem);
+  }
+  .icon-responsive {
+    max-width: clamp(24px, 5vw, 50px);
+    height: auto;
+  }
+
+  .element-responsive {
+    max-width: clamp(48px, 20vw, 200px);
+    height: auto;
+  }
+
+  .heading-arial {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .btn-styling {
+    background-color: #8a2be2;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 2vh;
+  }
+  
+  .btn-styling:hover {
+    background-color: #3A3A5B;
+  }
+  
+  .logo-m {
+    width: clamp(2px, 3vw, 25px);
+    height: auto;
+  }
+
+  @media (max-width: 1380px) {
+    .btn-styling {
+      font-size: 2rem;
+      padding: 0.55rem 1.1rem;
+    }
+  }
+  @media (max-width: 992px) {
+    .btn-styling {
+      font-size: 0.95rem;
+      padding: 0.55rem 1.1rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .btn-styling {
+      font-size: 0.55rem;
+      padding: 0.2rem 1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .btn-styling {
+      font-size: 0.3rem;
+      padding: 0.2rem 0.9rem;
+    }
+  }
